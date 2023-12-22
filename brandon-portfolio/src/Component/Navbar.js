@@ -10,6 +10,21 @@ const Navbar =  () => {
                         Home
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to="/projects" end>
+                        Projects
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/skills" end>
+                        Skils
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/education" end>
+                        Education
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     )
